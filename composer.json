@@ -1,0 +1,20 @@
+{
+    "name": "graft/plugin-skeleton",
+    "description": "WordPress Plugin with Graft Framework Project",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Zusoy",
+            "email": "gregoire.drapeau79@gmail.com"
+        }
+    ],
+    "require": {
+        "graft/framework-core": "^0.0.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "./src/"
+        }
+    }
+}

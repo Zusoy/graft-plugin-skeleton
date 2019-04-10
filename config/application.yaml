@@ -1,0 +1,6 @@
+application:
+  dev: true                  # Enable Plugin Development Mode
+  namespace: App             # Plugin Namespace (where Factory will handle your Classes)
+  capability: manage_options # Default Plugin Capability
+  asset_dir: assets/         # Plugin Assets Directory
+  template_dir: templates/   # Plugin Templates Directory
