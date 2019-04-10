@@ -8,5 +8,13 @@
             "name": "Zusoy",
             "email": "gregoire.drapeau79@gmail.com"
         }
-    ]
+    ],
+    "require": {
+        "graft/framework-core": "^0.0.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "./src/"
+        }
+    }
 }
