@@ -10,7 +10,7 @@
         }
     ],
     "require": {
-        "graft/framework-core": "^0.0.6"
+        "graft/framework-core": "^0.0.7"
     },
     "autoload": {
         "psr-4": {
