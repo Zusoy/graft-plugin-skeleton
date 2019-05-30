@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "063dd3f3d1ddb1720e9db151e6368d71",
+    "content-hash": "47d443c1723c53cc8d41a0624f5bd8a8",
     "packages": [
         {
             "name": "cocur/slugify",
@@ -195,21 +195,21 @@
         },
         {
             "name": "graft/framework-core",
-            "version": "v0.0.6",
+            "version": "v0.0.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Zusoy/graft-framework-core.git",
-                "reference": "ab305ac7a74a5e634c74fadacfeb730e676058e7"
+                "reference": "d765f66e0b89f12770f7fbf75bea9a18d72418b8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Zusoy/graft-framework-core/zipball/ab305ac7a74a5e634c74fadacfeb730e676058e7",
-                "reference": "ab305ac7a74a5e634c74fadacfeb730e676058e7",
+                "url": "https://api.github.com/repos/Zusoy/graft-framework-core/zipball/d765f66e0b89f12770f7fbf75bea9a18d72418b8",
+                "reference": "d765f66e0b89f12770f7fbf75bea9a18d72418b8",
                 "shasum": ""
             },
             "require": {
                 "doctrine/annotations": "^1.6",
-                "graft/wp-container": "^0.0.3",
+                "graft/wp-container": "^0.0.4",
                 "haydenpierce/class-finder": "^0.3.1",
                 "mindplay/composer-locator": "^2.1",
                 "php": "^7.2",
@@ -235,20 +235,20 @@
                 }
             ],
             "description": "Framework Core for WordPress Plugin Development.",
-            "time": "2019-04-10T17:38:29+00:00"
+            "time": "2019-04-12T09:35:55+00:00"
         },
         {
             "name": "graft/wp-container",
-            "version": "v0.0.3",
+            "version": "v0.0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Zusoy/graft-wp-container.git",
-                "reference": "2460406de2340d69818e96e45b4712d762c9f81b"
+                "reference": "4b9f08ef679d7bcaea2a2ff1313112bcace74328"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Zusoy/graft-wp-container/zipball/2460406de2340d69818e96e45b4712d762c9f81b",
-                "reference": "2460406de2340d69818e96e45b4712d762c9f81b",
+                "url": "https://api.github.com/repos/Zusoy/graft-wp-container/zipball/4b9f08ef679d7bcaea2a2ff1313112bcace74328",
+                "reference": "4b9f08ef679d7bcaea2a2ff1313112bcace74328",
                 "shasum": ""
             },
             "require": {
@@ -273,20 +273,20 @@
                 }
             ],
             "description": "Container for WordPress Application",
-            "time": "2019-04-09T19:23:21+00:00"
+            "time": "2019-04-12T09:27:54+00:00"
         },
         {
             "name": "haydenpierce/class-finder",
-            "version": "0.3.1",
+            "version": "0.3.2",
             "source": {
                 "type": "git",
                 "url": "https://gitlab.com/hpierce1102/ClassFinder.git",
-                "reference": "9b66f18080283d45508f61fcc554a8f5bf3671e5"
+                "reference": "a7b3d050304bda998e124f650f3328d0286c8518"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://gitlab.com/api/v4/projects/hpierce1102%2FClassFinder/repository/archive.zip?sha=9b66f18080283d45508f61fcc554a8f5bf3671e5",
-                "reference": "9b66f18080283d45508f61fcc554a8f5bf3671e5",
+                "url": "https://gitlab.com/api/v4/projects/hpierce1102%2FClassFinder/repository/archive.zip?sha=a7b3d050304bda998e124f650f3328d0286c8518",
+                "reference": "a7b3d050304bda998e124f650f3328d0286c8518",
                 "shasum": ""
             },
             "require": {
@@ -315,7 +315,7 @@
                 }
             ],
             "description": "A library that can provide of a list of classes in a given namespace",
-            "time": "2019-03-02T17:59:11+00:00"
+            "time": "2019-05-25T17:27:37+00:00"
         },
         {
             "name": "jeremeamia/SuperClosure",
@@ -418,16 +418,16 @@
         },
         {
             "name": "nikic/php-parser",
-            "version": "v4.2.1",
+            "version": "v4.2.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nikic/PHP-Parser.git",
-                "reference": "5221f49a608808c1e4d436df32884cbc1b821ac0"
+                "reference": "1bd73cc04c3843ad8d6b0bfc0956026a151fc420"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/5221f49a608808c1e4d436df32884cbc1b821ac0",
-                "reference": "5221f49a608808c1e4d436df32884cbc1b821ac0",
+                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/1bd73cc04c3843ad8d6b0bfc0956026a151fc420",
+                "reference": "1bd73cc04c3843ad8d6b0bfc0956026a151fc420",
                 "shasum": ""
             },
             "require": {
@@ -465,7 +465,7 @@
                 "parser",
                 "php"
             ],
-            "time": "2019-02-16T20:54:15+00:00"
+            "time": "2019-05-25T20:07:01+00:00"
         },
         {
             "name": "php-di/invoker",
@@ -512,16 +512,16 @@
         },
         {
             "name": "php-di/php-di",
-            "version": "6.0.7",
+            "version": "6.0.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/PHP-DI/PHP-DI.git",
-                "reference": "78326779037852fb8c13be606110434b9911eebd"
+                "reference": "a634876c69b643b779a89e4b7bec1ed1df803afc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/PHP-DI/PHP-DI/zipball/78326779037852fb8c13be606110434b9911eebd",
-                "reference": "78326779037852fb8c13be606110434b9911eebd",
+                "url": "https://api.github.com/repos/PHP-DI/PHP-DI/zipball/a634876c69b643b779a89e4b7bec1ed1df803afc",
+                "reference": "a634876c69b643b779a89e4b7bec1ed1df803afc",
                 "shasum": ""
             },
             "require": {
@@ -571,7 +571,7 @@
                 "ioc",
                 "psr11"
             ],
-            "time": "2019-03-07T20:02:32+00:00"
+            "time": "2019-04-02T20:25:18+00:00"
         },
         {
             "name": "php-di/phpdoc-reader",
@@ -661,16 +661,16 @@
         },
         {
             "name": "symfony/config",
-            "version": "v4.2.5",
+            "version": "v4.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/config.git",
-                "reference": "0e745ead307d5dcd4e163e94a47ec04b1428943f"
+                "reference": "5455fc0ae8b46269b83a22949429ea878496408c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/config/zipball/0e745ead307d5dcd4e163e94a47ec04b1428943f",
-                "reference": "0e745ead307d5dcd4e163e94a47ec04b1428943f",
+                "url": "https://api.github.com/repos/symfony/config/zipball/5455fc0ae8b46269b83a22949429ea878496408c",
+                "reference": "5455fc0ae8b46269b83a22949429ea878496408c",
                 "shasum": ""
             },
             "require": {
@@ -685,6 +685,7 @@
                 "symfony/dependency-injection": "~3.4|~4.0",
                 "symfony/event-dispatcher": "~3.4|~4.0",
                 "symfony/finder": "~3.4|~4.0",
+                "symfony/messenger": "~4.1",
                 "symfony/yaml": "~3.4|~4.0"
             },
             "suggest": {
@@ -693,7 +694,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "4.2-dev"
+                    "dev-master": "4.3-dev"
                 }
             },
             "autoload": {
@@ -720,20 +721,20 @@
             ],
             "description": "Symfony Config Component",
             "homepage": "https://symfony.com",
-            "time": "2019-04-01T14:03:25+00:00"
+            "time": "2019-05-20T16:16:12+00:00"
         },
         {
             "name": "symfony/filesystem",
-            "version": "v4.2.5",
+            "version": "v4.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/filesystem.git",
-                "reference": "e16b9e471703b2c60b95f14d31c1239f68f11601"
+                "reference": "988ab7d70c267c34efa85772ca20de3fad11c74b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/filesystem/zipball/e16b9e471703b2c60b95f14d31c1239f68f11601",
-                "reference": "e16b9e471703b2c60b95f14d31c1239f68f11601",
+                "url": "https://api.github.com/repos/symfony/filesystem/zipball/988ab7d70c267c34efa85772ca20de3fad11c74b",
+                "reference": "988ab7d70c267c34efa85772ca20de3fad11c74b",
                 "shasum": ""
             },
             "require": {
@@ -743,7 +744,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "4.2-dev"
+                    "dev-master": "4.3-dev"
                 }
             },
             "autoload": {
@@ -770,7 +771,7 @@
             ],
             "description": "Symfony Filesystem Component",
             "homepage": "https://symfony.com",
-            "time": "2019-02-07T11:40:08+00:00"
+            "time": "2019-05-24T12:50:04+00:00"
         },
         {
             "name": "symfony/polyfill-ctype",
@@ -817,7 +818,7 @@
                 },
                 {
                     "name": "Gert de Pagter",
-                    "email": "backendtea@gmail.com"
+                    "email": "BackEndTea@gmail.com"
                 }
             ],
             "description": "Symfony polyfill for ctype functions",
@@ -999,16 +1000,16 @@
         },
         {
             "name": "symfony/yaml",
-            "version": "v4.2.5",
+            "version": "v4.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/yaml.git",
-                "reference": "6712daf03ee25b53abb14e7e8e0ede1a770efdb1"
+                "reference": "c60ecf5ba842324433b46f58dc7afc4487dbab99"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/yaml/zipball/6712daf03ee25b53abb14e7e8e0ede1a770efdb1",
-                "reference": "6712daf03ee25b53abb14e7e8e0ede1a770efdb1",
+                "url": "https://api.github.com/repos/symfony/yaml/zipball/c60ecf5ba842324433b46f58dc7afc4487dbab99",
+                "reference": "c60ecf5ba842324433b46f58dc7afc4487dbab99",
                 "shasum": ""
             },
             "require": {
@@ -1027,7 +1028,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "4.2-dev"
+                    "dev-master": "4.3-dev"
                 }
             },
             "autoload": {
@@ -1054,7 +1055,7 @@
             ],
             "description": "Symfony Yaml Component",
             "homepage": "https://symfony.com",
-            "time": "2019-03-30T15:58:42+00:00"
+            "time": "2019-04-06T14:04:46+00:00"
         },
         {
             "name": "twig/extensions",
@@ -1113,16 +1114,16 @@
         },
         {
             "name": "twig/twig",
-            "version": "v2.7.4",
+            "version": "v2.10.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/twigphp/Twig.git",
-                "reference": "ed9c49220e09bfaeb1ba4d48077c08a7b09908dd"
+                "reference": "5240e21982885b76629552d83b4ebb6d41ccde6b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/twigphp/Twig/zipball/ed9c49220e09bfaeb1ba4d48077c08a7b09908dd",
-                "reference": "ed9c49220e09bfaeb1ba4d48077c08a7b09908dd",
+                "url": "https://api.github.com/repos/twigphp/Twig/zipball/5240e21982885b76629552d83b4ebb6d41ccde6b",
+                "reference": "5240e21982885b76629552d83b4ebb6d41ccde6b",
                 "shasum": ""
             },
             "require": {
@@ -1138,7 +1139,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.7-dev"
+                    "dev-master": "2.10-dev"
                 }
             },
             "autoload": {
@@ -1176,7 +1177,7 @@
             "keywords": [
                 "templating"
             ],
-            "time": "2019-03-23T14:28:58+00:00"
+            "time": "2019-05-14T12:03:52+00:00"
         }
     ],
     "packages-dev": [],
