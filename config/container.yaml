@@ -1,0 +1,9 @@
+# Plugin Container Configuration
+container:
+  # Enable Autowiring in Plugin (Recommanded)
+  autowiring: true  
+
+  # Add Container Parameters here
+  parameters:       
+    # myParameter: Hello World !
+  
