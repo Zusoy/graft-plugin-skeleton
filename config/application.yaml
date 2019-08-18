@@ -1,6 +1,18 @@
+# Plugin Configuration
 application:
-  dev: true                  # Enable Plugin Development Mode
-  namespace: App             # Plugin Namespace (where Factory will handle your Classes)
-  capability: manage_options # Default Plugin Capability
-  asset_dir: assets/         # Plugin Assets Directory
-  template_dir: templates/   # Plugin Templates Directory
+  # Enable Plugin Development Mode (true/false)
+  dev: true
+
+  # Plugin Namespace (where Factory will handle your classes)
+  # It's strongly recommanded to change it !
+  # Don't forget to change it in the composer.json too !
+  namespace: App         
+
+  # Default Plugin Capability
+  capability: manage_options 
+
+  # Plugin Assets Directory
+  asset_dir: assets/         
+
+  # Plugin Templates Directory
+  template_dir: templates/   
